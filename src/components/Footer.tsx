@@ -31,7 +31,6 @@ const Footer = ({ footerAPI }: any) => {
             <p className="text-sm md:text-center">
               Copyright<sup className="text-base font-bold">&copy;</sup> All
               Reserved Rights 2022{" "}
-              <span className="font-semibold">JSSTACK DEVELOPERS</span>
             </p>
             <div className="flex items-center gap-3">
               {sociallinks?.map((val: any, i: any) => (
